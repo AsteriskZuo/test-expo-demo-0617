@@ -1,0 +1,280 @@
+asterisk@bogon test-expo-demo-0617 % git status
+fatal: not a git repository (or any of the parent directories): .git
+asterisk@bogon test-expo-demo-0617 % 
+asterisk@bogon test-expo-demo-0617 % 
+asterisk@bogon test-expo-demo-0617 % 
+asterisk@bogon test-expo-demo-0617 % npx expo prebuild --clean
+Need to install the following packages:
+  expo@51.0.14
+Ok to proceed? (y) y
+npm WARN deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm WARN deprecated @babel/plugin-proposal-nullish-coalescing-operator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-nullish-coalescing-operator instead.
+npm WARN deprecated @babel/plugin-proposal-optional-catch-binding@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-catch-binding instead.
+npm WARN deprecated @babel/plugin-proposal-numeric-separator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-numeric-separator instead.
+npm WARN deprecated @babel/plugin-proposal-class-properties@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
+npm WARN deprecated @babel/plugin-proposal-logical-assignment-operators@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-logical-assignment-operators instead.
+npm WARN deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+npm WARN deprecated rimraf@2.6.3: Rimraf versions prior to v4 are no longer supported
+npm WARN deprecated @babel/plugin-proposal-optional-chaining@7.21.0: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-chaining instead.
+npm WARN deprecated @babel/plugin-proposal-async-generator-functions@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-async-generator-functions instead.
+npm WARN deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm WARN deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm WARN deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm WARN deprecated @babel/plugin-proposal-object-rest-spread@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-object-rest-spread instead.
+npm WARN deprecated glob@7.1.6: Glob versions prior to v9 are no longer supported
+npm WARN deprecated glob@7.1.6: Glob versions prior to v9 are no longer supported
+npm WARN deprecated glob@7.1.6: Glob versions prior to v9 are no longer supported
+npm WARN deprecated osenv@0.1.5: This package is no longer supported.
+npm WARN deprecated glob@6.0.4: Glob versions prior to v9 are no longer supported
+npm WARN deprecated rimraf@2.4.5: Rimraf versions prior to v4 are no longer supported
+We couldn't find a git repository in your project directory.
+It's recommended to back up your project before proceeding.
+
+✔ Would you like to proceed? … yes
+
+✔ Cleared android, ios code
+
+CommandError: Cannot determine which native SDK version your project uses because the module `expo` is not installed. Please install it with `yarn add expo` and try again.
+
+asterisk@bogon test-expo-demo-0617 % yarn
+yarn install v1.22.19
+warning package.json: No license field
+info No lockfile found.
+warning No license field
+[1/4] 🔍  Resolving packages...
+warning expo > @expo/cli > glob@7.2.3: Glob versions prior to v9 are no longer supported
+warning expo > @expo/config-plugins > glob@7.1.6: Glob versions prior to v9 are no longer supported
+warning expo > @expo/config > glob@7.1.6: Glob versions prior to v9 are no longer supported
+warning expo > @expo/cli > @expo/config > glob@7.1.6: Glob versions prior to v9 are no longer supported
+warning expo > @expo/metro-config > glob@7.2.3: Glob versions prior to v9 are no longer supported
+warning expo > @expo/cli > @expo/devcert > glob@7.2.3: Glob versions prior to v9 are no longer supported
+warning expo > @expo/config > sucrase > glob@7.1.6: Glob versions prior to v9 are no longer supported
+warning expo > @expo/cli > glob > inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+warning expo > @expo/config-plugins > glob > inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+warning expo > @expo/cli > @expo/devcert > rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+warning expo > @expo/cli > tempy > del > rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+warning expo > @expo/cli > @expo/devcert > rimraf > glob@7.2.3: Glob versions prior to v9 are no longer supported
+warning expo > @expo/cli > tempy > del > rimraf > glob@7.2.3: Glob versions prior to v9 are no longer supported
+warning expo > @expo/cli > npm-package-arg > osenv@0.1.5: This package is no longer supported.
+warning expo > @expo/cli > @react-native/dev-middleware > @rnx-kit/chromium-edge-launcher > rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+warning expo > babel-preset-expo > @react-native/babel-preset > @babel/plugin-proposal-class-properties@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
+warning expo > babel-preset-expo > @react-native/babel-preset > @babel/plugin-proposal-numeric-separator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-numeric-separator instead.
+warning expo > babel-preset-expo > @react-native/babel-preset > @babel/plugin-proposal-optional-chaining@7.21.0: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-chaining instead.
+warning expo > babel-preset-expo > @react-native/babel-preset > @babel/plugin-proposal-object-rest-spread@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-object-rest-spread instead.
+warning expo > babel-preset-expo > @react-native/babel-preset > @babel/plugin-proposal-optional-catch-binding@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-catch-binding instead.
+warning expo > babel-preset-expo > @react-native/babel-preset > @babel/plugin-proposal-async-generator-functions@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-async-generator-functions instead.
+warning expo > babel-preset-expo > @react-native/babel-preset > @babel/plugin-proposal-nullish-coalescing-operator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-nullish-coalescing-operator instead.
+warning expo > babel-preset-expo > @react-native/babel-preset > @babel/plugin-proposal-logical-assignment-operators@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-logical-assignment-operators instead.
+warning expo > @expo/cli > @expo/rudder-sdk-node > @expo/bunyan > mv > rimraf@2.4.5: Rimraf versions prior to v4 are no longer supported
+warning expo > @expo/cli > @expo/rudder-sdk-node > @expo/bunyan > mv > rimraf > glob@6.0.4: Glob versions prior to v9 are no longer supported
+warning expo > @expo/cli > @expo/rudder-sdk-node > @expo/bunyan > mv > rimraf > glob > inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+warning expo > babel-preset-expo > @react-native/babel-preset > @react-native/babel-plugin-codegen > @react-native/codegen > glob@7.2.3: Glob versions prior to v9 are no longer supported
+warning expo > babel-preset-expo > @react-native/babel-preset > @react-native/babel-plugin-codegen > @react-native/codegen > jscodeshift > @babel/plugin-proposal-class-properties@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
+warning expo > babel-preset-expo > @react-native/babel-preset > @react-native/babel-plugin-codegen > @react-native/codegen > jscodeshift > @babel/plugin-proposal-nullish-coalescing-operator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-nullish-coalescing-operator instead.
+warning expo > babel-preset-expo > @react-native/babel-preset > @react-native/babel-plugin-codegen > @react-native/codegen > jscodeshift > @babel/plugin-proposal-optional-chaining@7.21.0: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-chaining instead.
+warning expo > babel-preset-expo > @react-native/babel-preset > @react-native/babel-plugin-codegen > @react-native/codegen > jscodeshift > temp > rimraf@2.6.3: Rimraf versions prior to v4 are no longer supported
+warning expo > babel-preset-expo > @react-native/babel-preset > @react-native/babel-plugin-codegen > @react-native/codegen > jscodeshift > temp > rimraf > glob@7.2.3: Glob versions prior to v9 are no longer supported
+warning react-native > @react-native/codegen > glob@7.2.3: Glob versions prior to v9 are no longer supported
+warning react-native > @react-native/community-cli-plugin > metro > rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+warning react-native > @react-native/community-cli-plugin > querystring@0.2.1: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+warning react-native > @react-native/community-cli-plugin > @react-native/metro-babel-transformer > @react-native/babel-preset > @babel/plugin-proposal-class-properties@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
+warning react-native > @react-native/community-cli-plugin > @react-native/metro-babel-transformer > @react-native/babel-preset > @babel/plugin-proposal-numeric-separator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-numeric-separator instead.
+warning react-native > @react-native/community-cli-plugin > @react-native/metro-babel-transformer > @react-native/babel-preset > @babel/plugin-proposal-optional-chaining@7.21.0: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-chaining instead.
+warning react-native > @react-native/community-cli-plugin > @react-native/metro-babel-transformer > @react-native/babel-preset > @babel/plugin-proposal-object-rest-spread@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-object-rest-spread instead.
+warning react-native > @react-native/community-cli-plugin > @react-native/metro-babel-transformer > @react-native/babel-preset > @babel/plugin-proposal-optional-catch-binding@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-catch-binding instead.
+warning react-native > @react-native/community-cli-plugin > @react-native/metro-babel-transformer > @react-native/babel-preset > @babel/plugin-proposal-async-generator-functions@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-async-generator-functions instead.
+warning react-native > @react-native/community-cli-plugin > @react-native/metro-babel-transformer > @react-native/babel-preset > @babel/plugin-proposal-nullish-coalescing-operator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-nullish-coalescing-operator instead.
+warning react-native > @react-native/community-cli-plugin > @react-native/metro-babel-transformer > @react-native/babel-preset > @babel/plugin-proposal-logical-assignment-operators@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-logical-assignment-operators instead.
+warning react-native > @react-native/community-cli-plugin > metro > metro-cache > rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+[2/4] 🚚  Fetching packages...
+[3/4] 🔗  Linking dependencies...
+warning "expo > babel-preset-expo > @react-native/babel-preset > @react-native/babel-plugin-codegen > @react-native/codegen@0.74.84" has unmet peer dependency "@babel/preset-env@^7.1.6".
+warning "react-native > @react-native/codegen > jscodeshift@0.14.0" has unmet peer dependency "@babel/preset-env@^7.1.6".
+warning "react-native > @react-native/codegen@0.74.83" has unmet peer dependency "@babel/preset-env@^7.1.6".
+[4/4] 🔨  Building fresh packages...
+success Saved lockfile.
+✨  Done in 32.48s.
+asterisk@bogon test-expo-demo-0617 % 
+asterisk@bogon test-expo-demo-0617 % 
+asterisk@bogon test-expo-demo-0617 % 
+asterisk@bogon test-expo-demo-0617 % npx expo prebuild --clean
+We couldn't find a git repository in your project directory.
+It's recommended to back up your project before proceeding.
+
+✖ Would you like to proceed? … yes
+asterisk@bogon test-expo-demo-0617 % yarn expo prebuild
+yarn run v1.22.19
+warning package.json: No license field
+$ /Users/asterisk/tmp/2024.06.17/test-expo-demo-0617/node_modules/.bin/expo prebuild
+
+📝  Android package Learn more
+
+✔ What would you like your Android package name to be? … com.anonymous.testexpodemo0617
+^C
+asterisk@bogon test-expo-demo-0617 % proxy_on
+已开启代理
+asterisk@bogon test-expo-demo-0617 % 
+asterisk@bogon test-expo-demo-0617 % 
+asterisk@bogon test-expo-demo-0617 % 
+asterisk@bogon test-expo-demo-0617 % yarn expo prebuild
+yarn run v1.22.19
+warning package.json: No license field
+$ /Users/asterisk/tmp/2024.06.17/test-expo-demo-0617/node_modules/.bin/expo prebuild
+
+📝  Android package Learn more
+
+✔ What would you like your Android package name to be? … com.anonymous.testexpodemo0617
+
+
+📝  iOS Bundle Identifier Learn more
+
+✔ What would you like your iOS bundle identifier to be? … com.anonymous.testexpodemo0617
+
+✔ Created native directories
+› Using current versions instead of recommended react-native@0.74.2.
+✔ Updated package.json
+» ios: icon: No icon is defined in the Expo config.
+✔ Finished prebuild
+✔ Installed CocoaPods
+✨  Done in 47.99s.
+asterisk@bogon test-expo-demo-0617 % 
+asterisk@bogon test-expo-demo-0617 % 
+asterisk@bogon test-expo-demo-0617 % 
+asterisk@bogon test-expo-demo-0617 % 
+asterisk@bogon test-expo-demo-0617 % 
+asterisk@bogon test-expo-demo-0617 % cd ios 
+asterisk@bogon ios % cd ..
+asterisk@bogon test-expo-demo-0617 % 
+asterisk@bogon test-expo-demo-0617 % 
+asterisk@bogon test-expo-demo-0617 % 
+asterisk@bogon test-expo-demo-0617 % git status
+fatal: not a git repository (or any of the parent directories): .git
+asterisk@bogon test-expo-demo-0617 % git init .
+Initialized empty Git repository in /Users/asterisk/tmp/2024.06.17/test-expo-demo-0617/.git/
+asterisk@bogon test-expo-demo-0617 % git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        App.tsx
+        README.md
+        android/
+        app.json
+        babel.config.js
+        ios/
+        package.json
+        tsconfig.json
+        yarn.lock
+
+nothing added to commit but untracked files present (use "git add" to track)
+asterisk@bogon test-expo-demo-0617 % git add .
+asterisk@bogon test-expo-demo-0617 % git commit -m"create project"
+[main (root-commit) 45c3b32] create project
+ 61 files changed, 10564 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 App.tsx
+ create mode 100644 README.md
+ create mode 100644 android/.gitignore
+ create mode 100644 android/app/build.gradle
+ create mode 100644 android/app/proguard-rules.pro
+ create mode 100644 android/app/src/debug/AndroidManifest.xml
+ create mode 100644 android/app/src/main/AndroidManifest.xml
+ create mode 100644 android/app/src/main/java/com/anonymous/testexpodemo0617/MainActivity.kt
+ create mode 100644 android/app/src/main/java/com/anonymous/testexpodemo0617/MainApplication.kt
+ create mode 100644 android/app/src/main/res/drawable/rn_edit_text_material.xml
+ create mode 100644 android/app/src/main/res/drawable/splashscreen.xml
+ create mode 100644 android/app/src/main/res/mipmap-hdpi/ic_launcher.png
+ create mode 100644 android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png
+ create mode 100644 android/app/src/main/res/mipmap-mdpi/ic_launcher.png
+ create mode 100644 android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png
+ create mode 100644 android/app/src/main/res/mipmap-xhdpi/ic_launcher.png
+ create mode 100644 android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png
+ create mode 100644 android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+ create mode 100644 android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png
+ create mode 100644 android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+ create mode 100644 android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png
+ create mode 100644 android/app/src/main/res/values-night/colors.xml
+ create mode 100644 android/app/src/main/res/values/colors.xml
+ create mode 100644 android/app/src/main/res/values/strings.xml
+ create mode 100644 android/app/src/main/res/values/styles.xml
+ create mode 100644 android/build.gradle
+ create mode 100644 android/gradle.properties
+ create mode 100644 android/gradle/wrapper/gradle-wrapper.jar
+ create mode 100644 android/gradle/wrapper/gradle-wrapper.properties
+ create mode 100755 android/gradlew
+ create mode 100644 android/gradlew.bat
+ create mode 100644 android/settings.gradle
+ create mode 100644 app.json
+ create mode 100644 babel.config.js
+ create mode 100644 ios/.gitignore
+ create mode 100644 ios/.xcode.env
+ create mode 100644 ios/Podfile
+ create mode 100644 ios/Podfile.lock
+ create mode 100644 ios/Podfile.properties.json
+ create mode 100644 ios/testexpodemo0617.xcodeproj/project.pbxproj
+ create mode 100644 ios/testexpodemo0617.xcodeproj/xcshareddata/xcschemes/testexpodemo0617.xcscheme
+ create mode 100644 ios/testexpodemo0617.xcworkspace/contents.xcworkspacedata
+ create mode 100644 ios/testexpodemo0617/AppDelegate.h
+ create mode 100644 ios/testexpodemo0617/AppDelegate.mm
+ create mode 100644 ios/testexpodemo0617/Images.xcassets/AppIcon.appiconset/App-Icon-1024x1024@1x.png
+ create mode 100644 ios/testexpodemo0617/Images.xcassets/AppIcon.appiconset/Contents.json
+ create mode 100644 ios/testexpodemo0617/Images.xcassets/Contents.json
+ create mode 100644 ios/testexpodemo0617/Images.xcassets/SplashScreenBackground.imageset/Contents.json
+ create mode 100644 ios/testexpodemo0617/Images.xcassets/SplashScreenBackground.imageset/image.png
+ create mode 100644 ios/testexpodemo0617/Info.plist
+ create mode 100644 ios/testexpodemo0617/PrivacyInfo.xcprivacy
+ create mode 100644 ios/testexpodemo0617/SplashScreen.storyboard
+ create mode 100644 ios/testexpodemo0617/Supporting/Expo.plist
+ create mode 100644 ios/testexpodemo0617/main.m
+ create mode 100644 ios/testexpodemo0617/noop-file.swift
+ create mode 100644 ios/testexpodemo0617/testexpodemo0617-Bridging-Header.h
+ create mode 100644 ios/testexpodemo0617/testexpodemo0617.entitlements
+ create mode 100644 package.json
+ create mode 100644 tsconfig.json
+ create mode 100644 yarn.lock
+asterisk@bogon test-expo-demo-0617 % 
+
+asterisk@bogon test-expo-demo-0617 % yarn expo install react-native-agora-chat
+yarn run v1.22.19
+warning package.json: No license field
+$ /Users/asterisk/tmp/2024.06.17/test-expo-demo-0617/node_modules/.bin/expo install react-native-agora-chat
+› Installing 1 other package using yarn
+> yarn add react-native-agora-chat
+warning package.json: No license field
+warning test-expo-demo-0617@1.0.0: No license field
+[1/4] 🔍  Resolving packages...
+[2/4] 🚚  Fetching packages...
+[3/4] 🔗  Linking dependencies...
+warning "expo > babel-preset-expo > @react-native/babel-preset > @react-native/babel-plugin-codegen > @react-native/codegen@0.74.84" has unmet peer dependency "@babel/preset-env@^7.1.6".
+warning "react-native > @react-native/codegen > jscodeshift@0.14.0" has unmet peer dependency "@babel/preset-env@^7.1.6".
+warning "react-native > @react-native/codegen@0.74.83" has unmet peer dependency "@babel/preset-env@^7.1.6".
+[4/4] 🔨  Building fresh packages...
+
+success Saved lockfile.
+warning test-expo-demo-0617@1.0.0: No license field
+success Saved 1 new dependency.
+info Direct dependencies
+└─ react-native-agora-chat@1.2.1
+info All dependencies
+└─ react-native-agora-chat@1.2.1
+✨  Done in 4.76s.
+asterisk@bogon test-expo-demo-0617 % cd ios 
+asterisk@bogon ios % cd ..
+asterisk@bogon test-expo-demo-0617 % pwd
+/Users/asterisk/tmp/2024.06.17/test-expo-demo-0617
+asterisk@bogon test-expo-demo-0617 % yarn
+yarn install v1.22.19
+warning package.json: No license field
+warning test-expo-demo-0617@1.0.0: No license field
+[1/4] 🔍  Resolving packages...
+[2/4] 🚚  Fetching packages...
+[3/4] 🔗  Linking dependencies...
+warning "expo > babel-preset-expo > @react-native/babel-preset > @react-native/babel-plugin-codegen > @react-native/codegen@0.74.84" has unmet peer dependency "@babel/preset-env@^7.1.6".
+warning "react-native > @react-native/codegen > jscodeshift@0.14.0" has unmet peer dependency "@babel/preset-env@^7.1.6".
+warning "react-native > @react-native/codegen@0.74.83" has unmet peer dependency "@babel/preset-env@^7.1.6".
+[4/4] 🔨  Building fresh packages...
+✨  Done in 15.66s.
+asterisk@bogon test-expo-demo-0617 % 
