@@ -4,6 +4,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-native": "0.74.1",
+    "react-native-agora-chat": "^1.2.1",
     "react-native-web": "~0.19.6"
   },
   "devDependencies": {
@@ -16,6 +17,8 @@
   "version": "1.0.0",
   "scripts": {
     "android": "expo run:android",
-    "ios": "expo run:ios"
+    "ios": "expo run:ios",
+    "startr": "expo start --dev-client --clear",
+    "startr8888": "expo start --dev-client --clear --port 8888"
   }
 }
