@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "test-expo-demo-0617",
+    "slug": "test-expo-demo-0617",
+    "version": "1.0.0",
+    "sdkVersion": "51.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "android": {
+      "package": "com.anonymous.testexpodemo0617"
+    },
+    "ios": {
+      "bundleIdentifier": "com.anonymous.testexpodemo0617"
+    }
+  }
+}
