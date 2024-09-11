@@ -5328,10 +5328,10 @@ react-is@^17.0.1:
   resolved "https://registry.npmjs.org/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
-react-native-agora-chat@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.npmjs.org/react-native-agora-chat/-/react-native-agora-chat-1.2.1.tgz#470e0f42404bc2312ac6d3f0b3033b3555968637"
-  integrity sha512-E/65WI+AOttrFWbD9F5yikLd/AHZsk/3I3h6GnJYnP9nbZIv7iv+yVoHNhoVL0Xf33xUAK19wj60iFbEfTfskA==
+react-native-chat-sdk@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/react-native-chat-sdk/-/react-native-chat-sdk-1.6.0.tgz#6da374dfd27a639806a30becf26fe02f20e219b1"
+  integrity sha512-yXDJgm9aFkYQX0lGPJFAIAHFSNSD2DiEEdyjTjXaKQBdCzMn1sK8zPgvRTCC/UOoAFj+gm90QG6ZQtcUfTYm3g==
 
 react-native-web@~0.19.6:
   version "0.19.12"

@@ -1,0 +1,27 @@
+{
+  "cli": {
+    "version": ">= 12.3.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "base": {
+      "yarn": "1.22.19"
+    },
+    "development": {
+      "extends": "base",
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "extends": "base",
+      "distribution": "internal"
+    },
+    "production": {
+      "extends": "base",
+      "autoIncrement": true
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

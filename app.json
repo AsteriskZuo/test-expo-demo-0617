@@ -14,6 +14,11 @@
     },
     "ios": {
       "bundleIdentifier": "com.anonymous.testexpodemo0617"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "72a8484c-4631-422a-b757-96111b94d9d5"
+      }
     }
   }
 }

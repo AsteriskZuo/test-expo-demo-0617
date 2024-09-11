@@ -1,0 +1,33 @@
+{
+  "cli": {
+    "version": ">= 12.3.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "base": {
+      "yarn": "1.22.19"
+    },
+    "development": {
+      "extends": "base",
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "CMAKE_VERSION": "3.10.2"
+      },
+      "hooks": {
+        "postInstall": "curl -L https://github.com/Kitware/CMake/releases/download/v$CMAKE_VERSION/cmake-$CMAKE_VERSION-linux-x86_64.sh -o cmake.sh && chmod +x cmake.sh && ./cmake.sh --skip-license --prefix=/usr/local"
+      }
+    },
+    "preview": {
+      "extends": "base",
+      "distribution": "internal"
+    },
+    "production": {
+      "extends": "base",
+      "autoIncrement": true
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
